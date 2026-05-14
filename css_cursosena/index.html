@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: red;">Soy un titulo</h1>
+    <h2 class="titulo-anuncio">Anuncio publicitario verde</h2>
+    <h2 class="anuncio-2"> el anuncio numero 2 amarillo</h2>
+    <h2>Soy otro subtitulo mas largo</h2>
+    <h2>Soy otro subtitulo mas mas mas largo</h2>
+    <!-- otra cosa que se puede hacer para identificar en ves de class es utilizar el "id"  -->
+    <p id="parrafo-inicio">parrafo incial</p>
+    <p>Las motos de 600 cc en adelante son conocidas por ofrecer una experiencia de conducción mucho más potente, rápida y emocionante. Este tipo de motocicletas destacan por su gran aceleración, altas velocidades y diseños deportivos o agresivos, siendo muy admiradas tanto por amantes de la velocidad como por quienes disfrutan recorrer carretera. Además de su potencia, muchas incorporan tecnología avanzada, mejor estabilidad y sistemas de seguridad que brindan mayor control y rendimiento al conducir.</p>
+    <style>
+        h2{/* aqui en este decimos que todos los "h2" que existan en el programa se coloquen de color azul*/
+            color: blue;
+        }/* aqui lo que vamos a hacer a continuacion es que solamente se le va a cambiar el color a la clase que anterior mente la denominamos como titulo-anuncio con la opcion "class"qu es como para identificar lo que le queremos hacer algun cambi+o */
+        .titulo-anuncio{
+            color: green;
+        }/* aqui se hizo lo mismo que en el anterior pero ps aqui ya lo identificamos como anuncio-2 para que se cambie solamente ese, y por eso los dos ultimo "h2" quedaron de azul*/
+        .anuncio-2{
+            color: yellow;
+        }
+        /* a diferencia de "class" para llamar lo del "id" se utiliza es el "#" para llamar a ese id, a diferencia de class que lo que se hacia era poner primero un punto "." */
+        #parrafo-inicio{
+            color: orange;
+        }
+    </style>
+     <h2>Mis motos favoritas en unordered list</h2>
+    <h3>Mis motos favoritas</h3>
+    <ul>
+        <li id="z900">Kawasaki z900 2024</li>
+        <li class="Mt-09">Yamaha Mt-09 v2</li>
+        <li class="gsxs-750">Susuki gsxs-750</li>
+        <li class="R1M">Yamaha R1M</li>
+        <li class="R6">Yamaha R6</li>
+    </ul>
+    <style>
+        #z900{
+            color: green;
+        }
+        .Mt-09{
+            color: rgb(0, 0, 162);
+        }
+        .gsxs-750{
+            color: rgb(41, 80, 239);
+        }
+        .R1M{
+            color: rgb(99, 98, 98);
+        }
+        .R6{
+            color: rgb(130, 10, 10);
+        }
+    </style>
+    <table border="1"><!--etiqueta de apertura-->
+
+<tr>
+    <th>Moto</th>
+    <th>Descripción</th>
+
+</tr>
+<tr>
+    <th>Kawasaki z900</th>
+    <th>La Kawasaki Z900 es una moto deportiva y potente, reconocida por su diseño agresivo, gran aceleración y excelente rendimiento en carretera y ciudad.</th>
+</tr>
+<tr>
+    <th class="Mt-09">Yamaha Mt-09 v2</th>
+    <th class="Mt-09">La Yamaha MT-09 V2 destaca por su potencia, sonido característico y manejo ágil, combinando un diseño agresivo con una conducción divertida y rápida.</th>
+</tr>
+<tr>
+    <th class="gsxs-750">Susuki gsxs-750</th>
+    <th class="gsxs-750">La Suzuki GSX-S750 es una moto potente y deportiva, reconocida por su motor de alto rendimiento, estabilidad y diseño agresivo ideal para ciudad y carretera.</th>
+</tr>
+<tr>
+    <th class="R1M">Yamaha R1M</th>
+    <th class="R1M">La Yamaha YZF-R1M es una superbike de alto rendimiento, famosa por su tecnología inspirada en MotoGP, su gran velocidad y su diseño aerodinámico y agresivo.</th>
+</tr>
+<tr>
+    <th class="R6">Yamaha R6</th>
+    <th class="R6">La Yamaha YZF-R6 es una moto supersport reconocida por su velocidad, precisión en curvas y diseño deportivo, siendo una de las favoritas para conducción agresiva y pista.</th>
+</tr>
+
+
+</table>
+</body>
+</html>

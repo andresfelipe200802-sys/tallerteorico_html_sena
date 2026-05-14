@@ -1,0 +1,51 @@
+/* Llamar un elemento por su id */
+#Alto-cc{
+    color: yellow;
+    font-size: 30px;
+}
+/* Llamar a un elemento por su clase */
+.Mediano-cc{
+    color: blue;
+    font-size: 30px;
+}
+/* Llamar a un elemento por si tipo osea en este caso "h2", esto como dijimos anteriormente afectaria a todos los elementos "h2" que agreguemos en la pagina  */
+h2{
+    color: red;
+    font-size: 30px;
+}
+li{
+    color: #000;
+    font-size: 20px;
+    font-family: Arial;
+    list-style-type: square;/* esto es como por decir para modificar la forma de la viñeta ya que ps estamos trabajando en una ul */
+}
+.moto{
+    color: blue;
+}
+.faltante{
+    color: teal;
+}
+.principal{
+    color: yellow;
+}
+/* 
+   <ul class="Partes-moto">
+
+    <li class="principal">Gasolina</li>
+    <li class="andar">Llantas</li>
+    <li class="moto">Cadena</li>
+    <li class="moto">Velocimetro</li>
+    <li class="moto">Freno</li>
+    <li class="faltante" id="cm-cubicos">CC</li>
+    
+   </ul>
+ */
+ p{
+    color: teal;
+    background-color: rgb(241, 221, 182);
+    font: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px, 50px, 50px, 50px;
+    padding: 12px;
+    border: #000 solid 2px;
+ }
